@@ -12,7 +12,7 @@
 
 （持續更新...)
 
-- [React Course - Beginner's Tutorial for React JavaScript Library 教學影片](https://youtu.be/bMknfKXIFA8)
+- [Learn React With This One Project 快速入門 教學影片](https://youtu.be/bMknfKXIFA8)
 
   
 ## ⚠️ 注意：如果你要參考我的筆記
