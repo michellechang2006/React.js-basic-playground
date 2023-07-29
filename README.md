@@ -7,15 +7,14 @@
 
 在這部[YT 影片中](https://youtu.be/NtfbWkxJTHw)，討論如何學程式設計。影片中提到「費曼學習法」其中一個步驟 - 「教別人。例如小孩子，不要使用任何專業術語，用淺顯易懂的方式」。我開始嘗試寫學習筆記，寫到現在，確實比起只是看著教學影片，吸收得更好，因爲需要思考，筆記怎麼樣呈現才能讓他人了解、「學會」，所以必須在腦中反覆複習剛學到的`React.js`。而這樣的學習方式，我才能真正內化我學到的`React.js`，就有了這些學習筆記！
 
-## 所有的學習筆記
-（持續更新...)
-- [JavaScript Programming - Full Course 教學影片](https://youtu.be/jS4aFq5-91M)
-  
-  - [Passenger counter app](https://tinyurl.com/2cgr5545)
-    
-  - [Build Blackjack Game](https://tinyurl.com/223oyx48)
- 
 
+## 所有的學習筆記
+
+（持續更新...)
+
+- [React Course - Beginner's Tutorial for React JavaScript Library [2022] 教學影片](https://youtu.be/bMknfKXIFA8)
+
+  
 ## ⚠️ 注意：如果你要參考我的筆記
 1. 我是完全新手，內容可能有誤！如果你有發現任何錯誤，麻煩到[issues](#issues)回報給我🙏🏻
    
