@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "457c7fc9faf72c34",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d255a0d126a9bd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9193cd38a8f4dcde",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f7f13bd7ad1180cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6a76db3a62772a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a30f843fda308c30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7dd1d687a27063cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "786262a8359d1621",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6eaec7d5ace21b36",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4b5294cee8415bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07e127c635b15a22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4c6aa782c545ece5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "329c50b1a6e4ea10",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13701e22810c5ad7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a30f843fda308c30",
+  "lastOpenFiles": [
+    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
+    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
+    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
+    "version17",
+    "Trash",
+    "未命名檔案夾",
+    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
+    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
+    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
+    "Build_a_React_info_site/Build React info site.md",
+    "Build_a_React_info_site"
+  ]
+}
