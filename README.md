@@ -12,7 +12,7 @@
 
 （持續更新...)
 
-- [Learn React With This One Project 快速入門 教學影片](https://youtu.be/bMknfKXIFA8)
+- [Learn React With This One Project 快速入門](https://tinyurl.com/23tqdb2m)
 
   
 ## ⚠️ 注意：如果你要參考我的筆記
