@@ -53,7 +53,7 @@
     
   - Recap 👉🏻 有時一個單元資訊量太大/太複雜，會有一個段落來總結。
     
-  - 🖼️ 圖解 👉🏻 有些單元資訊量太複雜，筆者嘗試整理成 🖼️ 圖解筆記，儘量以生活情境（有些是來自於[教學影片](https://youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC）  來舉例，讓人容易理解。
+  - 🖼️ 圖解 👉🏻 有些單元資訊量太複雜，筆者嘗試整理成 🖼️ 圖解筆記，儘量以生活情境（有些是來自於[教學影片](https://youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC）)  來舉例，讓人容易理解。
     
   - 🎢 筆者玩玩看 👉🏻 簡單來說，就是教學影片沒有提到的，筆者自己去延伸。（例如：[JavaScript Programming - Full Course 教學影片](https://youtu.be/jS4aFq5-91M)拍攝時間是2021年，那時還沒有[ChatGPT](https://chat.openai.com)。剛好在寫此篇學習筆記時，MDN出了「[AI Help Beta](https://developer.mozilla.org/en-US/plus/ai-help)(Powered by GPT-3.5)」功能，筆者有嘗試用此功能來debug。（可略過）
 
