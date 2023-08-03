@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9193cd38a8f4dcde",
+            "id": "7f1bd3f8e73dda13",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6eaec7d5ace21b36",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md"
+              }
             }
           }
         ],
@@ -138,8 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a30f843fda308c30",
+  "active": "7f1bd3f8e73dda13",
   "lastOpenFiles": [
+    "Build_a_React_info_site/Build React info site.md",
+    "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
+    "Learn_React_With_This_One_Project",
     "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
     "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
     "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
@@ -149,7 +161,6 @@
     "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
     "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
     "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
-    "Build_a_React_info_site/Build React info site.md",
     "Build_a_React_info_site"
   ]
 }
