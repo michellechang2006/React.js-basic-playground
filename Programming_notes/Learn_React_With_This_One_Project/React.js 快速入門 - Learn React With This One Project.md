@@ -484,7 +484,7 @@ console.log(print)
 
 
 
-## JSX
+## [JSX](https://youtu.be/Rh3tobg7hEo?t=646)
 
 
 `JSX`是`Javascript`的語法擴充，也是`React.js`官方推薦的語法。`JSX`讓我們可以在`Javascript`裡使用HTML標籤。所以語法基本上和HTML、Javascript沒有什麼差別。但還是語法有些不同的寫法。
@@ -695,4 +695,712 @@ Item 2
 
 
 
->[官方 開發者 檔案 | | `<Fragment> (<>...</>`)](https://react.dev/reference/react/Fragment)
+>[官方 開發者 文件 | | `<Fragment> (<>...</>`)](https://react.dev/reference/react/Fragment)
+
+
+
+
+## [React Hook : `useState("")`](https://youtu.be/Rh3tobg7hEo?t=930)
+
+
+### [ES6 Destructuring assignment 解構賦值](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+
+
+**Array**
+
+
+如果我們要將`Array`打印（log)到控制台，我們會這麼做：
+
+
+```js
+
+// Array settings
+
+  
+
+let fruitProducts = [ "watermelons",
+
+  
+
+"oranges",
+
+  
+
+"mangos",
+
+  
+
+"apples"]
+
+  
+  
+  
+
+// log out
+
+  
+
+console.log(fruitProducts[0]) // 水果攤的產品清單的第一個項目
+
+  
+
+console.log(fruitProducts[1]) // 水果攤的產品清單的第二個項目
+
+  
+
+console.log(fruitProducts[2],fruitProducts[3]) // 水果攤的產品清單剩下的項目
+```
+
+
+
+然而，這樣的程式碼並沒有非常乾淨（clean)和好閱讀，因此我們要使用ES6的`Destructuring assignment`來修改程式碼。
+
+
+```js
+// Array settings
+
+  
+
+let fruitProducts = [ "watermelons",
+
+  
+
+"oranges",
+
+  
+
+"mangos",
+
+  
+
+"apples"]
+
+  
+  
+  
+
+// before
+
+  
+
+console.log(fruitProducts[0]) // 水果攤的產品清單的第一個項目
+
+  
+
+console.log(fruitProducts[1]) // 水果攤的產品清單的第二個項目
+
+  
+
+console.log(fruitProducts[2],fruitProducts[3]) // 水果攤的產品清單剩下的項目
+  
+  
+  
+
+// ES6
+
+  
+
+const [item1 /*item1變數的值為「水果攤的產品清單的第一個項目」*/, item2 /*item2變數的值為「水果攤的產品清單的第二個項目」*/,...rest /*rest變數的值為「水果攤的產品清單剩下的項目」*/] = fruitProducts
+
+  
+
+console.log(item1)
+
+console.log(item2)
+
+console.log(rest)
+
+
+// log out
+
+// watermelons
+
+// oranges
+
+// [ 'mangos', 'apples' ]
+```
+
+
+
+我們也可以透過ES6的`Destructuring assignment`來將兩個（以上）`Array`結合。
+
+
+```js
+// Array settings
+
+  
+
+let fruitProducts1 = [ "watermelons",
+
+  
+
+"oranges",
+
+  
+
+"mangos",
+
+  
+
+"apples"]
+
+  
+  
+  
+
+let fruitProducts2 = [ "grapes",
+
+  
+
+"bananas",
+
+  
+
+"lemon",
+
+  
+
+"berrys"]
+
+  
+  
+
+// combine
+
+  
+
+const conbineArrays = [...fruitProducts1,...fruitProducts2]
+
+  
+
+console.log(conbineArrays)
+
+// log out
+// [
+
+// 'watermelons',
+
+// 'oranges',
+
+// 'mangos',
+
+// 'apples',
+
+// 'grapes',
+
+// 'bananas',
+
+// 'lemon',
+
+// 'berrys'
+
+// ]
+```
+
+
+
+我們也常常運用到函式：
+
+
+```js
+function subtractAndDivide(a,b){
+
+return [a-b, a/b]
+
+}
+
+  
+
+const [subtract,divide] = subtractAndDivide(2,3)
+
+  
+
+console.log(subtract) // 2 - 3
+
+console.log(divide) // 2 / 3
+
+// log out
+
+// -1
+
+// 0.6666666666666666
+```
+
+
+
+ 我們可以設定`Destructuring assignment`的預設值
+ 
+
+```js
+function subtractAndDivide(a,b){
+
+return [a-b, a/b,a+b]
+
+}
+
+  
+
+const [subtract,divide, add = "No Adding" /* 如subtractAndDivide函式裡有這個Array，則回傳a+b，但如果沒有，則回傳"No Adding" */] = subtractAndDivide(2,3)
+
+  
+
+console.log(subtract) // 2 - 3
+
+console.log(divide) // 2 / 3
+
+console.log(add) // 5
+```
+
+
+
+**Object**
+
+
+如果我們要將`Object`打印（log)到控制台，我們會這麼做：
+
+
+
+
+```js
+// object settings
+
+  
+
+let course = {
+
+  
+
+title : "course 1" , // title為名稱（key)
+
+lessons : 16,
+
+creator:"Emma",
+
+length: 63,
+
+isFree: true, // Boolean 布林 資料型態
+
+tags: ["html","css"], // Object裡可有Array 資料型態
+
+  
+
+racing:3,
+
+  
+
+certification:{
+
+  
+
+haveCertification: true,
+
+isFree:false
+
+}
+
+}
+
+  
+  
+
+// log out
+
+  
+
+console.log(course.title)
+
+console.log(course.lessons)
+
+console.log(course.creator,course.length,course.isFree,course.tags)
+```
+
+
+
+然而，這樣的程式碼並沒有非常乾淨（clean)和好閱讀，因此我們要使用ES6的`Destructuring assignment`來修改程式碼。
+
+
+
+```js
+// object settings
+
+  
+
+let course = {
+
+  
+
+title : "course 1" , // title為名稱（key)
+
+lessons : 16,
+
+creator:"Emma",
+
+length: 63,
+
+isFree: true, // Boolean 布林 資料型態
+
+tags: ["html","css"], // Object裡可有Array 資料型態
+
+  
+
+racing:3,
+
+  
+
+certification:{
+
+  
+
+haveCertification: true,
+
+isFree:false
+
+}
+
+}
+
+  
+  
+
+// Before
+
+  
+
+console.log(course.title)
+
+console.log(course.lessons)
+
+console.log(course.creator,course.length,course.isFree,course.tags)
+
+  
+  
+  
+
+// ES6
+
+  
+
+const {title,lessons,...rest} = course
+
+  
+
+console.log(title)
+
+console.log(lessons)
+
+console.log(rest)
+
+
+// log out 
+
+
+/* course 1
+
+16
+
+{
+
+creator: 'Emma',
+
+length: 63,
+
+isFree: true,
+
+tags: [ 'html', 'css' ],
+
+racing: 3,
+
+certification: { haveCertification: true, isFree: false }
+
+}*/
+```
+
+
+
+
+我們也可以透過ES6的`Destructuring assignment`來將`Object`作為新變數的值或新增`Object`的`key`及`value`。
+
+
+
+
+```js
+// object settings
+
+  
+
+let course = {
+
+  
+
+title : "course 1" , // title為名稱（key)
+
+lessons : 16,
+
+creator:"Emma",
+
+length: 63,
+
+isFree: true, // Boolean 布林 資料型態
+
+tags: ["html","css"], // Object裡可有Array 資料型態
+
+  
+
+racing:3,
+
+  
+
+certification:{
+
+  
+
+haveCertification: true,
+
+isFree:false
+
+}
+
+}
+  
+  
+  
+
+// ES6 將Object作為新變數的值
+
+  
+
+const {creator:author} = course
+
+  
+
+// console.log(author)
+
+  
+  
+
+// ES6 新增key及value
+
+  
+
+const {racing = 5} = course
+
+  
+
+console.log(racing) // 如原本的Object有此key及value，則會log out原本Object key的value
+```
+
+
+我們也可以透過ES6的`Destructuring assignment`來將兩個（以上）`Object`結合。如果有重複的`key`和`value`，則回傳第二個（最後一個）`Object`的資料。
+
+
+```js
+// object settings
+
+  
+
+let course1 = {
+
+  
+
+title : "course 1" , // title為名稱（key)
+
+lessons : 16,
+
+creator:"Emma",
+
+length: 63,
+
+isFree: true, // Boolean 布林 資料型態
+
+tags: ["html","css"], // Object裡可有Array 資料型態
+
+  
+
+racing:3,
+
+  
+
+certification:{
+
+  
+
+haveCertification: true,
+
+isFree:false
+
+}
+
+}
+
+  
+  
+  
+
+let course2 = {
+
+  
+
+lessons : 24,
+
+creator:"Jenny",
+
+isFree:false, // Boolean 布林 資料型態
+
+  
+
+}
+
+  
+  
+
+// combine
+
+  
+
+const combineCourses = {...course1,...course2}
+
+  
+
+console.log(combineCourses)
+
+
+// log out
+
+/* {
+
+title: 'course 1',
+
+lessons: 24, // course 2 也有這個key和value，所以事回傳24 
+
+creator: 'Jenny', // course 2 也有這個key和value，所以事回傳Jenny
+
+length: 63,
+
+isFree: false, // course 2 也有這個key和value，所以事回傳false
+
+tags: [ 'html', 'css' ],
+
+racing: 3,
+
+certification: { haveCertification: true, isFree: false }
+
+} */
+```
+
+
+
+我們也常常運用到函式：
+
+
+```js
+// Object settings
+
+let course = {
+
+  
+
+title : "course 1" , // title為名稱（key)
+
+lessons : 16,
+
+creator:"Emma",
+
+length: 63,
+
+isFree: true, // Boolean 布林 資料型態
+
+  
+
+racing : 3,
+
+tags: ["html","css"], // Object裡可有Array 資料型態
+
+  
+
+certification:{
+
+  
+
+haveCertification: true,
+
+isFree:false
+
+}
+
+}
+
+  
+  
+
+// React.js 常常用到
+
+function printCourse({title,lessons,racing = 5 /*如原本的Object有此key及value，則會log out原本Object key的value*/}){
+
+console.log(`The course is "${title}". It has ${lessons} lessons. The Racing is ${racing}`) // 模板字串 記得要用反單引號
+
+}
+
+  
+
+printCourse(course)
+
+// log out
+
+/* The course is "course 1". It has 16 lessons. The Racing is 3 */
+```
+
+
+
+
+>[MDN DOCS](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+
+
+
+##### 📝 延伸 - ES6 Destructuring assignment  教學
+
+
+
+>[YouTube | | Why Is Array/Object Destructuring So Useful And How To Use It](https://youtu.be/NIq3qLaHCIs)
+
+
+>[w3schools | | React ES6 Destructuring](https://www.w3schools.com/react/react_es6_destructuring.asp)
+
+
+>[IT邦幫忙鐵人賽 文章 | | Day 08: ES6篇 - Destructuring Assignment(解構賦值)](https://ithelp.ithome.com.tw/articles/10185430)
+
+
+
+##### 📝 延伸 - ES6 Destructuring assignment  Cheetsheet
+
+
+>[A simple cheat-sheet for destructuring assignment in JavaScript!](https://www.instagram.com/p/Cfsrk5ljLDr/?img_index=1)
+
+
+>[#javascript ES6 cheatsheet — Destructuring](https://medium.com/p/d697b456b73b) 
+
+
+
+
+### [React Hook : `useState("")`]()
+
+
+
+
+>[React.js入門 - 13】 useState - 在function component用state](https://ithelp.ithome.com.tw/articles/10220063)
+
+>[[React Hook 筆記] 從最基本的useState, useEffect 開始](https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-%E5%BE%9E%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84-hook-%E9%96%8B%E5%A7%8B-usestate-useeffect-fee6582d8725)
+
+
+>[官方 開發者 文件](https://react.dev/reference/react/useState)
+
+
+
+### [React Hook : `useState("")` with `onChange` event]()
+
+
+>[【React.js入門 - 26】 input使用、input與state的互動 (控制組件) 、其他輸入元素](https://ithelp.ithome.com.tw/articles/10225692)
+
+
+>[純 Javascript | | onchange Event](https://www.w3schools.com/jsref/event_onchange.asp)

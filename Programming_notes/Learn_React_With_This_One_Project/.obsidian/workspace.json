@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "457c7fc9faf72c34",
+    "id": "2015f72af93b82cb",
     "type": "split",
     "children": [
       {
-        "id": "0d255a0d126a9bd3",
+        "id": "7e433392dde04a22",
         "type": "tabs",
         "children": [
           {
-            "id": "7f1bd3f8e73dda13",
+            "id": "db61fabdef4045ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
+                "file": "React.js 快速入門 - Learn React With This One Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f7f13bd7ad1180cf",
+    "id": "954f2535fb03bebd",
     "type": "split",
     "children": [
       {
-        "id": "e6a76db3a62772a5",
+        "id": "69667ef50fedd81f",
         "type": "tabs",
         "children": [
           {
-            "id": "a30f843fda308c30",
+            "id": "96601568aaaa5918",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "7dd1d687a27063cc",
+            "id": "74fbe02b4da8252c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "786262a8359d1621",
+            "id": "c89f342da17eb5b8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "6eaec7d5ace21b36",
+    "id": "98358af725f21961",
     "type": "split",
     "children": [
       {
-        "id": "e4b5294cee8415bf",
+        "id": "b2d08ea0c2b39e79",
         "type": "tabs",
         "children": [
           {
-            "id": "07e127c635b15a22",
+            "id": "6927e409b371c9a1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
+                "file": "React.js 快速入門 - Learn React With This One Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +97,19 @@
             }
           },
           {
-            "id": "4c6aa782c545ece5",
+            "id": "c754b04b753d176e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
+                "file": "React.js 快速入門 - Learn React With This One Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "329c50b1a6e4ea10",
+            "id": "db2dee98a1eb7373",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,21 +120,21 @@
             }
           },
           {
-            "id": "13701e22810c5ad7",
+            "id": "f5543f74322c5c87",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md"
+                "file": "React.js 快速入門 - Learn React With This One Project.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,21 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f1bd3f8e73dda13",
-  "lastOpenFiles": [
-    "().md",
-    "Learn_React_With_This_One_Project/React.js 快速入門 - Learn React With This One Project.md",
-    "Build_a_React_info_site/Build React info site.md",
-    "Learn_React_With_This_One_Project",
-    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
-    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
-    "version17/React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
-    "version17",
-    "Trash",
-    "未命名檔案夾",
-    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site/Build React info site.md",
-    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]/Build_a_React_info_site",
-    "React_Course_-_Beginner's_Tutoria_ for React_JavaScript_Library [2022]",
-    "Build_a_React_info_site"
-  ]
+  "active": "db61fabdef4045ee",
+  "lastOpenFiles": []
 }
